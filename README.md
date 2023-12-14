@@ -23,3 +23,14 @@ For clarity and simplicity, our analysis is confined solely to DGEMM. We conduct
 | AVX2 + Loop Unrolling + Blocking      | 0.174788 | 7.32314e+09 |
 | AVX2 + Loop Unrolling + Blocking + OpenMP        | 0.0498716 | 2.00814e+10 | 
 
+## GEMM from OpenBLAS and Intel MKL
+
+| Algorithm       | Time Taken (s) | Flops | 
+| :---------- | :----------: | :-----: |
+| OpenBLAS (1 thread)    | 0.0737658 | 1.73522e+10 |
+| OpenBLAS (All threads)    | 0.0342831 | 3.73362e+10 |
+
+
+
+
+
